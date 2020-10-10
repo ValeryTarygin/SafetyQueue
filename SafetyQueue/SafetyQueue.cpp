@@ -113,6 +113,4 @@ int main()
 
     for (auto& it : vThread_)
         it.join();
-
-    std::cout << "Hello World!\n";
 }
